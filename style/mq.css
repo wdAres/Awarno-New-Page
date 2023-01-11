@@ -41,6 +41,10 @@
 }
 
 @media screen and (max-width:760px){
+    .section-1 {
+        overflow: hidden;
+    }
+
     .upper-sc {
         overflow: hidden;
         width: 100%;
@@ -60,7 +64,7 @@
         height: 183px;
         display: none;
     }
-    img.sec-1-img1 {
+    /* img.sec-1-img1 {
         height: 265px;
         margin: auto;
         display: block;
@@ -75,6 +79,26 @@
     .home-lower-part{
         height: 211px !important;
         overflow: hidden;
+    } */
+
+    img.sec-1-img1 {
+        height: 411px;
+        margin: auto;
+        display: block;
+        left: 0;
+        margin-top: 0;
+    }
+    .home-lower-part {
+        height: 0;
+        /* overflow: hidden; */
+    }
+    .section-1 > .row {
+        height: 104vh;
+        overflow: hidden;
+    }
+
+    .hei{
+        height: 50% !important;
     }
 
     .top-case .rounded-shape {
@@ -120,7 +144,7 @@
         color: white;
     }
     .review-card {
-        width: 260px;
+        width: 300px;
     }
 
     .sec-4-li span{
