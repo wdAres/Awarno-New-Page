@@ -1,0 +1,129 @@
+
+
+
+@media screen and (max-width:1300px){
+    img.sec-1-img2 {
+        height: 300px;
+    }
+    img.sec-1-img1 {
+        height: 385px;
+    }
+}
+
+
+
+@media screen and (max-width:1000px){
+    img.sec-1-img2 {
+        height: 183px;
+    }
+    img.sec-1-img1 {
+        height: 265px;
+    }
+
+    .tc-p{
+        width: 100%;
+    }
+
+    .companies-logo img{
+        width: 100%;
+    }
+
+    .section-4 p {
+        width: 100%;
+    }
+
+    .sec-1-h1 {
+        font-size: 34px;
+        color: white;
+    }
+
+
+}
+
+@media screen and (max-width:760px){
+    .upper-sc {
+        overflow: hidden;
+        width: 100%;
+        height: 300px;
+        background: none;
+        border-radius: 0;
+        /* right: -48px; */
+        position: unset;
+        border-top: 0px solid #351b75;
+        border-bottom: 0px solid #351b75;
+        border-left: 0px solid #351b75;
+        display: unset;
+        align-items: center;
+    }
+
+    img.sec-1-img2 {
+        height: 183px;
+        display: none;
+    }
+    img.sec-1-img1 {
+        height: 265px;
+        margin: auto;
+        display: block;
+        left: 0;
+        margin-top: 30px;
+    }
+    .section-1 > .row {
+        height: 89vh;
+    overflow: hidden;
+    }
+
+    .home-lower-part{
+        height: 211px !important;
+        overflow: hidden;
+    }
+
+    .top-case .rounded-shape {
+        width: 100%;
+        height: 290px;
+        background: #fbbc05;
+        position: relative;
+        left: -13px;
+        border-radius: 0 200px 200px 0;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        margin-bottom: 62px;
+    }
+
+    .lower-case .rounded-shape {
+        width: 100%;
+        height: 290px;
+        background: #28a2ff;
+        position: relative;
+        right: -12px;
+        border-radius: 200px 0 0 200px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        margin-bottom: 83px;
+    }
+}
+
+@media screen and (max-width:580px){
+    .sec-4-ul button {
+        width: 100%;
+    }
+    .sec-4-ul {
+        width: 100%;
+    }
+
+    .rs-btn-container {
+        display: none;
+    }
+    p.sec-1-p {
+        width: 90%;
+        color: white;
+    }
+    .review-card {
+        width: 260px;
+    }
+
+    .sec-4-li span{
+        width: 90%;
+    }
+}
