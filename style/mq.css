@@ -1,4 +1,6 @@
-
+.offcanvas{
+    display: none;
+}
 
 
 @media screen and (max-width:1300px){
@@ -37,7 +39,9 @@
         color: white;
     }
 
-
+.offcanvas{
+    display: block;
+}
 }
 
 @media screen and (max-width:760px){
@@ -155,6 +159,6 @@
 
 @media screen and (max-width:410px){
     .review-card {
-        width: 250px;
+        width: 280px;
     }
 }

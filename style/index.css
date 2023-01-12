@@ -32,7 +32,7 @@ h1 span nav {
 }
 
 .navbar-brand {
-  font-size: 18px;
+  font-size: 2rem !important;
 }
 
 .btn-container {
@@ -54,7 +54,56 @@ h1 span nav {
 .btn-sec {
   border: 1px solid white;
   background: white;
-  color: #271260;
+  /* color: #271260; */
+  color: #611F69;
+}
+
+.navbar-toggler{
+  outline: none !important;
+  border: none !important;
+  box-shadow: none!important;
+}
+
+.navbar-toggler span {
+  width: 20px;
+  height: 2px;
+  background: white;
+  display: block;
+  margin-bottom: 5px;
+}
+.navbar-toggler span:last-child{
+  margin-bottom: 0;
+}
+
+/* OFFCANVAS */
+
+div#offcanvasExample {
+  width: 300px;
+  background-color: #f4ede4!important;
+}
+
+.offcanvas-ul{
+  list-style: none;
+}
+.offcanvas-li {
+  margin-bottom: 20px;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: var(--border-radius);
+}
+.offcanvas-li:hover{
+  background-color: white;
+}
+.offcanvas-li:hover a{
+ color: #611F69;
+}
+.offcanvas-li a{
+  color: #2f2f2f;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+.offcanvas-li a i{
+  margin-right: 10px;
 }
 
 /* Section-1 */
@@ -223,6 +272,10 @@ img.sec-1-img2 {
 
 /* Section-5 */
 
+section.section-5 {
+  background: #f0f0f0;
+}
+
 .checked{
   color: #271260;
 }
@@ -233,9 +286,10 @@ img.sec-1-img2 {
 .review-card {
   width: 300px;
   padding: 10px;
-  min-height: 300px;
-  background: #efefef;
+  min-height: 589px;
+  background: white;
   border-radius: var(--border-radius);
+  padding: 20px;
 }
 .review-card img{
   width: 40px;
