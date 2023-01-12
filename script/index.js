@@ -7,7 +7,8 @@ $("#slider-box").slick({
   arrows: false,
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 10,
+  autoplaySpeed: 500,
+  pauseOnHover:false,
 
   responsive: [
     {
