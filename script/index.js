@@ -32,22 +32,25 @@ $("#slider-box").slick({
       breakpoint: 768,
       settings: {
         arrows: false,
-        centerMode: true,
-        centerPadding: "40px",
-        slidesToShow: 1,
+        centerMode: false,
+        centerPadding: "0px",
+        slidesToShow: 1.9,
       },
     },
     {
-      breakpoint: 360,
+      breakpoint: 550,
       settings: {
         arrows: false,
         centerMode: true,
         centerPadding: "40px",
         slidesToShow: 1,
       },
-    },
+    }
   ],
 });
+
+
+
 $("#slider-2").slick({
   centerMode: true,
   // centerPadding: '60px',
@@ -66,24 +69,25 @@ $("#slider-2").slick({
         slidesToShow: 2,
       },
     },
-    {
-      breakpoint: 700,
-      settings: {
-        slidesToShow: 1,
-      },
-    },
+    // {
+    //   breakpoint: 700,
+    //   settings: {
+    //     slidesToShow: 1,
+    //   },
+    // },
     {
       breakpoint: 550,
       settings: {
-        slidesToShow: 1,
+        // centerMode : false ,
+        slidesToShow: 2,
         arrows : false 
       },
     },
     {
-      breakpoint: 360,
+      breakpoint: 410,
       settings: {
         slidesToShow: 1,
-        
+        arrows : false 
       },
     }
   ],

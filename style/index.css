@@ -171,7 +171,8 @@ img.sec-1-img2 {
 /* Section 4 */
 
 .section-4 {
-  background: #efefef;
+  /* background: #efefef; */
+  background-color: #f4ede4!important;
 }
 .section-4 h1 {
   text-align: center;
@@ -302,7 +303,8 @@ img.sec-1-img2 {
 /* Section-7 */
 
 .section-7{
-  background: #D6D6D6;
+  /* background: #D6D6D6; */
+  background-color: #f4ede4!important;
 }
 
 .service-card {
@@ -336,7 +338,8 @@ textarea{
 /* Footer */
 
 .footer{
-  background: #D6D6D6;
+  /* background: #D6D6D6; */
+  background-color: #f4ede4!important;
 }
 
 a.footer-brand {

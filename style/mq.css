@@ -151,3 +151,10 @@
         width: 90%;
     }
 }
+
+
+@media screen and (max-width:410px){
+    .review-card {
+        width: 250px;
+    }
+}
