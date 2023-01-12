@@ -7,7 +7,7 @@ $("#slider-box").slick({
   arrows: false,
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 2000,
+  autoplaySpeed: 10,
 
   responsive: [
     {
@@ -41,7 +41,7 @@ $("#slider-box").slick({
       breakpoint: 550,
       settings: {
         arrows: false,
-        centerMode: true,
+        centerMode: false,
         centerPadding: "40px",
         slidesToShow: 1,
       },
@@ -54,11 +54,17 @@ $("#slider-box").slick({
 $("#slider-2").slick({
   centerMode: true,
   // centerPadding: '60px',
-  slidesToShow: 3,
+  slidesToShow: 4,
   arrows: true,
   responsive: [
     {
       breakpoint: 1300,
+      settings: {
+        slidesToShow: 5,
+      },
+    },
+    {
+      breakpoint: 1200,
       settings: {
         slidesToShow: 3,
       },

@@ -42,6 +42,15 @@
 .offcanvas{
     display: block;
 }
+
+.service-card {
+    padding: 10px;
+    border-radius: var(--border-radius);
+    background: white;
+    min-height: 322px;
+    font-size: 14px;
+    width: 100%;
+}
 }
 
 @media screen and (max-width:760px){
@@ -102,7 +111,24 @@
     }
 
     .hei{
-        height: 50% !important;
+        /* height: 50% !important; */
+        height: max-content !important;
+    }
+
+    .upper-sc {
+        overflow: hidden;
+        width: 100%;
+        height: max-content;
+        background: none;
+        border-radius: 0;
+        /* right: -48px; */
+        position: unset;
+        border-top: 0px solid #351b75;
+        border-bottom: 0px solid #351b75;
+        border-left: 0px solid #351b75;
+        display: unset;
+        align-items: center;
+        margin-top: 50px;
     }
 
     .top-case .rounded-shape {
@@ -130,6 +156,17 @@
         justify-content: start;
         margin-bottom: 83px;
     }
+
+    .mcb {
+        position: absolute;
+        top: 60px;
+        right: 9px;
+        font-size: 25px;
+    }
+
+    .home-top-c{
+        padding-top: 0px;
+      }
 }
 
 @media screen and (max-width:580px){
