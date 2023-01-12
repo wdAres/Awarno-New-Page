@@ -29,7 +29,8 @@ h4,
 h5,
 h6,
 h1 span {
-  font-family: mySecFont;
+  font-family: mySecFont !important;
+  font-weight: bold !important;
 }
 
 h1 span nav {
