@@ -10,6 +10,7 @@ $("#slider-box").slick({
   speed: 8000,
   pauseOnHover: false,
   cssEase: 'linear',
+  pauseOnFocus:false,
 
   responsive: [
     {
