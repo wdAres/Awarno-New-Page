@@ -2,48 +2,37 @@
 
 $("#slider-box").slick({
   centerMode: true,
-  // centerPadding: '60px',
   slidesToShow: 4,
   arrows: false,
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 500,
-  pauseOnHover:false,
+  autoplaySpeed: 0,
+  speed: 8000,
+  pauseOnHover: false,
+  cssEase: 'linear',
 
   responsive: [
     {
       breakpoint: 1300,
       settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: "40px",
         slidesToShow: 3,
       },
     },
     {
       breakpoint: 1000,
       settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: "40px",
         slidesToShow: 2,
       },
     },
     {
       breakpoint: 768,
       settings: {
-        arrows: false,
-        centerMode: false,
-        centerPadding: "0px",
         slidesToShow: 1.9,
       },
     },
     {
       breakpoint: 550,
       settings: {
-        arrows: false,
-        centerMode: false,
-        centerPadding: "40px",
         slidesToShow: 1,
       },
     }
