@@ -340,6 +340,27 @@
   }
 }
 
+@media screen and (max-width:400px){
+    img.sec-1-img1 {
+        height: 411px;
+        display: block;
+        left: 10%;
+        margin-top: 0;
+        top: 40px;
+        position: absolute;
+        margin-inline: unset;
+    }
+    img.sec-1-img2 {
+        height: 321px;
+        display: block;
+        left: 50%;
+        top: 79px;
+        margin-top: 0;
+        position: absolute;
+        margin-inline: unset;
+    }
+}
+
 @media screen and (max-width:380px){
     .section-1 > .row {
         height: 81vh;
