@@ -28,7 +28,15 @@ $("#slider-box").slick({
     {
       breakpoint: 768,
       settings: {
+        centerMode: false,
         slidesToShow: 1.9,
+      },
+    },
+    {
+      breakpoint: 620,
+      settings: {
+        centerMode: false,
+        slidesToShow: 1.3,
       },
     },
     {

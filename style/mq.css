@@ -399,5 +399,9 @@
         position: absolute;
             margin-inline: unset;
     }
+
+    .review-card {
+        width: 230px;
+    }
     
 }
