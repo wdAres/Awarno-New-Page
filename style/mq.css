@@ -44,7 +44,7 @@
     padding: 10px;
     border-radius: var(--border-radius);
     background: white;
-    min-height: 322px;
+    min-height: 280px;
     font-size: 14px;
     width: 100%;
   }
@@ -241,7 +241,7 @@
   }
   .review-card {
     width: 260px;
-    min-height: 800px;
+    min-height: 646px;
   }
 
   .sec-4-li span {

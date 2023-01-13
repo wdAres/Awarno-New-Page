@@ -339,7 +339,7 @@ img.sec-1-img2 {
 .review-card {
   width: 300px;
   padding: 10px;
-  min-height: 589px;
+  min-height: 505px;
   background: white;
   border-radius: var(--border-radius);
   padding: 20px;
@@ -420,7 +420,7 @@ img.sec-1-img2 {
   min-height: 322px;
   font-size: 14px;
   width: 260px;
-  min-height: 357px;
+  min-height: 318px;
   position: relative;
 }
 .service-card .service-name {
@@ -537,10 +537,9 @@ a.footer-brand {
 }
 
 .icon {
-  width: 50px;
-  margin-bottom: 10px;
+  width: 34px;
   position: absolute;
-  bottom: 10px;
+  bottom: 15px;
 }
 
 /* .icon {
