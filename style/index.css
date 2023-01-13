@@ -596,3 +596,78 @@ a.footer-brand {
 .section-8 p{
   font-size: 20px;
 }
+
+
+.services-imgs-c {
+  background: white;
+  display: inline-flex;
+  padding: 5px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.services-imgs-c.i1{}
+.services-imgs-c.i2{}
+.services-imgs-c.i3{}
+.services-imgs-c.i4{}
+.services-imgs-c.i5{}
+.services-imgs-c.i6{}
+.services-imgs-c.i7{}
+.services-imgs-c.i8{}
+
+.services-imgs-c.i1 {
+  position: absolute;
+  right: 76px;
+}
+.services-imgs-c.i2 {
+  position: absolute;
+  right: 346px;
+  top: -37px;
+}
+.services-imgs-c.i3 {
+  position: absolute;
+  top: 41px;
+  left: 252px;
+}
+.services-imgs-c.i4 {
+  position: absolute;
+  left: 34px;
+  top: 122px;
+}
+.services-imgs-c.i5 {
+  position: absolute;
+  left: 76px;
+}
+.services-imgs-c.i6 {
+  position: absolute;
+  right: 286px;
+  top: 61px;
+}
+.services-imgs-c.i7 {
+  position: absolute;
+  right: 76px;
+}
+
+
+.services-imgs-c.i1 img{}
+.services-imgs-c.i2 img{}
+.services-imgs-c.i3 img{}
+.services-imgs-c.i4 img{}
+.services-imgs-c.i7 img{}
+
+.services-imgs-c.i5 img {
+  width: auto;
+  height: 29px;
+}
+.services-imgs-c.i6 img {
+  width: auto;
+  height: 35px;
+}
+
+.services-imgs-c.i7 img {
+  width: auto;
+  height: 30px;
+}
