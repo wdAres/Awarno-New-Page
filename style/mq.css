@@ -350,10 +350,18 @@
 }
 }
 
+
 @media screen and (max-width: 410px) {
   /* .review-card {
     width: 258px;
   } */
+
+  .section-1 {
+    background: #271260;
+    height: 81vh;
+}
+
+
 }
 
 @media screen and (max-width: 400px) {
