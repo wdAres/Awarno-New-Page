@@ -533,11 +533,12 @@ a.footer-brand {
   scrollbar-width: none;  /* Firefox */
 }
 
-.mcb{
+.mcb {
   position: absolute;
-  top: 0;
-  right: -19px;
-  width: back;
+  top: 4px;
+  right: 6px;
+  color: white;
+  cursor: pointer;
   background: none;
   border: none;
   z-index: 999999999999999;

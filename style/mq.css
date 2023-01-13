@@ -199,12 +199,12 @@ img.sec-1-img2 {
   }
 
   .mcb {
-    position: absolute;
-    top: 59px;
-    right: 14px;
+    /* position: absolute; */
+    top: -2px;
+    /* right: 14px; */
     font-size: 25px;
-    color: white;
-  }
+    /* color: white; */
+}
 
   .home-top-c {
     padding-top: 0px;
