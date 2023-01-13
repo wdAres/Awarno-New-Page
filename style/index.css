@@ -420,6 +420,8 @@ img.sec-1-img2 {
   min-height: 322px;
   font-size: 14px;
   width: 260px;
+  min-height: 357px;
+  position: relative;
 }
 .service-card .service-name {
   font-size: 20px;
@@ -537,6 +539,8 @@ a.footer-brand {
 .icon {
   width: 50px;
   margin-bottom: 10px;
+  position: absolute;
+  bottom: 10px;
 }
 
 /* .icon {
