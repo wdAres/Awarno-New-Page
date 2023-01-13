@@ -294,10 +294,10 @@
     margin-inline: auto;
   }
 
-  .companies-logo img {
+  /* .companies-logo img {
     width: auto;
     height: auto;
-  }
+  } */
 }
 
 @media screen and (max-width: 480px) {
