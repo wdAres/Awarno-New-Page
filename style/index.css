@@ -53,13 +53,25 @@ h1 span nav {
 
 .btn-container {
 }
-.btn-container button {
+/* .btn-container button {
   width: 139px;
   margin: 0 2px;
   border-radius: var(--border-radius);
   font-size: 14px;
   height: 37px;
   cursor: pointer;
+} */
+
+.btn-container button {
+  width: 155px;
+  margin: 0 2px;
+  border-radius: var(--border-radius);
+  font-size: 14px;
+  height: 48px;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 .btn-pri {
@@ -151,13 +163,24 @@ p.sec-1-p {
   color: white;
   font-size: 19px;
 }
-.sec-1-btn {
+/* .sec-1-btn {
   width: 309px;
   height: 50px;
   border-radius: var(--border-radius);
   font-weight: 700;
     font-size: 13px;
+} */
+
+.sec-1-btn {
+  width: 338px;
+  height: 50px;
+  border-radius: var(--border-radius);
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 2px;
 }
+
+
 .sec-1-h1 span {
   color: #ecb22e;
 }
@@ -414,7 +437,7 @@ img.sec-1-img2 {
 
 
 .service-card {
-  padding: 10px;
+  padding: 15px;
   border-radius: var(--border-radius);
   background: white;
   min-height: 322px;
@@ -425,6 +448,7 @@ img.sec-1-img2 {
 }
 .service-card .service-name {
   font-size: 20px;
+  font-weight: bold;
 }
 
 
@@ -546,3 +570,29 @@ a.footer-brand {
   width: 50px;
   margin-bottom: 30px;
 } */
+
+
+/* New Chnages */
+
+
+
+.section-4-btn{
+  width: 718px;
+  height: 50px;
+  font-size: 16px;
+  text-transform: uppercase;
+  background: #271260;
+  color: white;
+  font-weight: 600;
+  border-radius: var(--border-radius);
+  margin-inline: auto;
+  display: block;
+}
+
+
+.section-8 h1{
+  font-size: 65px;
+}
+.section-8 p{
+  font-size: 20px;
+}
