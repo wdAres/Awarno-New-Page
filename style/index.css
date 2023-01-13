@@ -6,6 +6,12 @@
   font-family: mySecFont;
   src: url("../Helvetica-Neue-Font/HelveticaNeue\ Medium.ttf");
 }
+@font-face {
+  font-family: myThirdFont;
+  src: url("../Helvetica-Neue-Font/HelveticaNeue\ Light.ttf");
+}
+
+
 :root {
   --border-radius: 4px;
 }
@@ -31,6 +37,10 @@ h6,
 h1 span {
   font-family: mySecFont !important;
   font-weight: bold !important;
+}
+
+.light-f-heading{
+font-family: myThirdFont !important ;
 }
 
 h1 span nav {
@@ -267,6 +277,9 @@ img.sec-1-img2 {
   text-align: center;
 }
 .section-4 h4 {
+  text-align: center;
+}
+.section-4 h6 {
   text-align: center;
 }
 .section-4 p {
@@ -514,3 +527,19 @@ a.footer-brand {
   font-size: 38px;
   margin-bottom: 20px;
 }
+
+.sec-4-ul button {
+  width: 100%;
+  background: #271260;
+  color: white !important;
+}
+
+.icon {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+/* .icon {
+  width: 50px;
+  margin-bottom: 30px;
+} */

@@ -92,9 +92,12 @@
 }
 
 @media screen and (max-width: 760px) {
+  
   .section-1 {
     overflow: hidden;
-  }
+    background: #271260;
+    height: 74vh;
+}
 
   .hei {
     /* height: 50% !important; */
@@ -237,7 +240,8 @@
     width: 100%;
   }
   .review-card {
-    width: 300px;
+    width: 260px;
+    min-height: 800px;
   }
 
   .sec-4-li span {
@@ -339,12 +343,17 @@
     position: absolute;
     margin-inline: unset;
   }
+
+  .section-1 {
+    background: #271260;
+    height: 71vh;
+}
 }
 
 @media screen and (max-width: 410px) {
-  .review-card {
+  /* .review-card {
     width: 258px;
-  }
+  } */
 }
 
 @media screen and (max-width: 400px) {
