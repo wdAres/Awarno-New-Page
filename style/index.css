@@ -126,7 +126,7 @@ div#offcanvasExample {
 
 .section-1 {
   background: #271260;
-  height: 82vh;
+  height: 84vh;
 }
 .section-1 > .row {
   height: 86%;
@@ -137,13 +137,16 @@ div#offcanvasExample {
   color: white;
 }
 p.sec-1-p {
-  width: 458px;
+  width: 500px;
   color: white;
+  font-size: 19px;
 }
 .sec-1-btn {
-  width: 290px;
-  height: 45px;
+  width: 309px;
+  height: 50px;
   border-radius: var(--border-radius);
+  font-weight: 700;
+    font-size: 13px;
 }
 .sec-1-h1 span {
   color: #ecb22e;
@@ -424,8 +427,15 @@ select,
 textarea{
   border-radius: var(--border-radius);
   height: 50px;
+  color:rgb(146, 146, 146) !important;
 }
 
+
+.section-8 .form input::placeholder ,
+.section-8 .form select::placeholder,
+.section-8 .form textarea::placeholder{
+  color:rgb(146, 146, 146);
+}
 
 /* Footer */
 
