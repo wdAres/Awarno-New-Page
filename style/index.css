@@ -51,6 +51,10 @@ h1 span nav {
   font-size: 2rem !important;
 }
 
+.navbar-brand img{
+  margin-top: -29px;
+}
+
 .btn-container {
 }
 /* .btn-container button {
@@ -106,7 +110,7 @@ h1 span nav {
 /* OFFCANVAS */
 
 div#offcanvasExample {
-  width: 300px;
+  width: 100%;
   background: #f8f5ff !important;
 }
 
@@ -119,9 +123,9 @@ div#offcanvasExample {
   padding: 10px;
   border-radius: var(--border-radius);
 }
-.offcanvas-li:hover{
+/* .offcanvas-li:hover{
   background-color: white;
-}
+} */
 .offcanvas-li:hover a{
  color: #611F69;
 }
@@ -236,7 +240,7 @@ img.sec-1-img2 {
   height: 290px;
   background: #fbbc05;
   position: absolute;
-  left: 0;
+  left: 30px;
   border-radius: 0 200px 200px 0;
   display: flex;
   align-items: center;
@@ -279,7 +283,7 @@ img.sec-1-img2 {
   height: 290px;
   background: #28a2ff;
   position: absolute;
-  right: 0;
+  right: 30px;
   border-radius: 200px 0 0 200px;
   display: flex;
   align-items: center;
@@ -308,7 +312,7 @@ img.sec-1-img2 {
 .section-4 p {
   text-align: center;
   width: 784px;
-  font-size: 13px;
+  font-size: 16px;
   margin: auto;
   margin-top: 20px;
 }
@@ -323,6 +327,7 @@ img.sec-1-img2 {
   display: flex;
   align-items: center;
   margin-bottom: 13px;
+  text-transform: capitalize;
 }
 
 .sec-4-li .circle {
@@ -466,14 +471,14 @@ select,
 textarea{
   border-radius: var(--border-radius);
   height: 50px;
-  color:rgb(146, 146, 146) !important;
+  color:rgb(0, 0, 0) !important;
 }
 
 
 .section-8 .form input::placeholder ,
 .section-8 .form select::placeholder,
 .section-8 .form textarea::placeholder{
-  color:rgb(146, 146, 146);
+  color:rgb(146, 146, 146) !important;
 }
 
 /* Footer */
@@ -671,4 +676,54 @@ a.footer-brand {
 .services-imgs-c.i7 img {
   width: auto;
   height: 30px;
+}
+
+
+.new-sec-1{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #271260;
+
+}
+.new-sec-1 .container{}
+.new-sec-1 .container h1 {
+  font-size: 52px;
+  color: #ecb22e;
+  width: 674px;
+}
+.new-sec-1 .container p{
+  color: white;
+  font-size: 19px;
+}
+
+.new-sec-1 img {
+  position: absolute;
+  right: 0;
+}
+
+.new-sec-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f8f5ff;
+}
+.new-sec-2 .container{}
+.new-sec-2 .container h1 {
+  font-size: 2.5rem;
+  color: #000000;
+  text-align: center;
+}
+
+
+.form-control:focus {
+  background-color: #fff;
+  border-color: #ecb22e !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(236 178 46) !important;
+}
+
+.rs-btn-container img{
+  width: 19px;
 }

@@ -101,6 +101,14 @@ img.sec-1-img2 {
   .services-imgs-c{
     display: none;
   }
+
+  .navbar-brand img{
+    margin-top: 0px;
+}
+
+.navbar-sidebar img{
+  margin-top: -15px;
+}
 }
 
 @media screen and (max-width: 760px) {
@@ -303,6 +311,25 @@ img.sec-1-img2 {
   .sec-4-li span {
     width: 90%;
   }
+
+  .new-sec-1 .container h1 ,
+  .new-sec-2 .container h1 {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+  .new-sec-1 .container p{
+    color: white;
+    font-size: 14px;
+  }
+  .new-sec-1 {
+    height: 55vh;
+  }
+  .new-sec-1 img {
+    position: absolute;
+    height: 100%;
+    right: 0;
+}
+
 }
 
 @media screen and (max-width: 580px) {
