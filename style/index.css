@@ -764,3 +764,29 @@ a.footer-brand {
   left: 56px;
   font-weight: 700;
 }
+
+.sticky-side{
+  display: flex;
+  flex-direction: column;
+  width: 44px;
+  position: fixed;
+  right: -10px;
+  top: 234px;
+  align-items: unset;
+}
+.sticky-side a{
+  height: 35px;
+  padding: 5px;
+}
+.sticky-side a:first-child{
+  background: #5270ff;
+}
+.sticky-side a:first-child img{
+  height: 100%;
+}
+.sticky-side a:last-child{
+  background: #49c958;
+}
+.sticky-side a:last-child img{
+  height: 100%;
+}
