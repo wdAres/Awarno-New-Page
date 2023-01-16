@@ -98,5 +98,29 @@ $("#slider-2").slick({
 });
 
 
+$(".testimonials-slider").slick({
+  slidesToShow: 2.5,
+  arrows: false,
+  slidesToScroll: 1,
+  autoplay: true,
+  // autoplaySpeed: 0,
+  // speed: 8000,
+  // pauseOnHover: false,
+  // cssEase: 'linear',
+  // pauseOnFocus:true,
 
-
+  responsive: [
+    {
+      breakpoint: 1300,
+      settings: {
+        slidesToShow: 2,
+      },
+    },
+    {
+      breakpoint: 540,
+      settings: {
+        slidesToShow: 1,
+      },
+    } 
+   ]
+});
