@@ -707,15 +707,15 @@ a.footer-brand {
   color: white;
   font-size: 19px;
 }
-.new-sec-1 .container .btn-pri{
-  border: 2px solid #ffffff;
+.new-sec-1 .container .btn-pri {
+  color: #271260;
+  background: white;
   border-radius: var(--border-radius);
-  color: #ffffff;
   padding: 0px 10px;
   word-spacing: 5px;
   font-weight: 700;
   width: 300px;
-  height: 40px;
+  height: 50px;
 }
 
 .new-sec-1 img {
@@ -754,15 +754,15 @@ a.footer-brand {
 
 
 .service-card .btn-pri{
-  border: 2px solid #271260;
-  border-radius: var(--border-radius);
-  color: #271260;
-  padding: 0px 10px;
-  position: absolute;
-  bottom: 15px;
-  height: 36px;
-  left: 56px;
-  font-weight: 700;
+      background: #271260;
+    border-radius: var(--border-radius);
+    color: white;
+    padding: 0px 10px;
+    position: absolute;
+    bottom: 15px;
+    height: 36px;
+    right: 12px;
+    /* font-weight: 700;*/
 }
 
 .sticky-side{
@@ -779,7 +779,8 @@ a.footer-brand {
   padding: 5px;
 }
 .sticky-side a:first-child{
-  background: #5270ff;
+  /* background: #5270ff; */
+  background-color: #fff;
 }
 .sticky-side a:first-child img{
   height: 100%;
@@ -789,4 +790,12 @@ a.footer-brand {
 }
 .sticky-side a:last-child img{
   height: 100%;
+}
+
+.down-arr {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 9999999999999999;
+  color: #929292;
 }
