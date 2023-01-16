@@ -310,8 +310,10 @@ img.sec-1-img2 {
     width: 100%;
   }
   .review-card {
-    width: 260px;
-    min-height: 646px;
+    /* width: 260px;
+    min-height: 646px; */
+      width: 90%;
+      min-height: auto;
   }
 
   .sec-4-li span {
@@ -520,6 +522,6 @@ img.sec-1-img2 {
   }
 
   .review-card {
-    width: 230px;
+    /* width: 230px; */
   }
 }
