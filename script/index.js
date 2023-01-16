@@ -117,7 +117,7 @@ $(".testimonials-slider").slick({
       },
     },
     {
-      breakpoint: 540,
+      breakpoint: 740,
       settings: {
         slidesToShow: 1
       },
