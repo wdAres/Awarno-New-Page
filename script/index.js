@@ -100,7 +100,7 @@ $("#slider-2").slick({
 
 $(".testimonials-slider").slick({
   slidesToShow: 2.5,
-  arrows: false,
+  arrows: true,
   slidesToScroll: 1,
   autoplay: true,
   // autoplaySpeed: 0,

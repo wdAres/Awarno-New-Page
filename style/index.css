@@ -813,3 +813,52 @@ a.footer-brand {
   margin-inline: auto;
   display: block;
 }
+
+
+.testimonials-slider .slick-next {
+  right: 69px;
+  z-index: 999;
+  top: 40%;
+}
+.testimonials-slider .slick-prev {
+  left: 39px;
+  z-index: 999;
+  top: 40%;
+}
+
+.testimonials-slider .slick-next:before,
+.testimonials-slider .slick-prev:before {
+  font-size: 15px;
+  color: black;
+
+}
+.testimonials-slider .slick-next:before {
+  content: '\f054';
+  background: white;
+  opacity: 1;
+  width: 50px;
+  font-weight: 600;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  font-family: 'Font Awesome 5 Free';
+  justify-content: center;
+  align-items: center;
+  color: black !important;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.testimonials-slider .slick-prev:before {
+  content: '\f053';
+  background: white;
+  opacity: 1;
+  width: 50px;
+  font-weight: 600;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  font-family: 'Font Awesome 5 Free';
+  justify-content: center;
+  align-items: center;
+  color: black !important;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
