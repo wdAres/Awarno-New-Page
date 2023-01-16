@@ -56,6 +56,9 @@ h1 span nav {
 }
 
 .btn-container {
+  display: flex;
+  align-items: center;
+
 }
 /* .btn-container button {
   width: 139px;
@@ -76,6 +79,9 @@ h1 span nav {
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-pri {
@@ -302,12 +308,16 @@ img.sec-1-img2 {
 }
 .section-4 h1 {
   text-align: center;
+  width: 80%;
+  margin-inline: auto;
 }
 .section-4 h4 {
   text-align: center;
 }
 .section-4 h6 {
   text-align: center;
+  width: 80%;
+  margin-inline: auto;
 }
 .section-4 p {
   text-align: center;
@@ -325,7 +335,7 @@ img.sec-1-img2 {
 
 .sec-4-li {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   margin-bottom: 13px;
   text-transform: capitalize;
 }
@@ -697,6 +707,16 @@ a.footer-brand {
   color: white;
   font-size: 19px;
 }
+.new-sec-1 .container .btn-pri{
+  border: 2px solid #ffffff;
+  border-radius: var(--border-radius);
+  color: #ffffff;
+  padding: 0px 10px;
+  word-spacing: 5px;
+  font-weight: 700;
+  width: 300px;
+  height: 40px;
+}
 
 .new-sec-1 img {
   position: absolute;
@@ -730,4 +750,17 @@ a.footer-brand {
 
 .companies-logo img{
   width: 130px;
+}
+
+
+.service-card .btn-pri{
+  border: 2px solid #271260;
+  border-radius: var(--border-radius);
+  color: #271260;
+  padding: 0px 10px;
+  position: absolute;
+  bottom: 15px;
+  height: 36px;
+  left: 56px;
+  font-weight: 700;
 }

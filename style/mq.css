@@ -150,6 +150,12 @@ img.sec-1-img2 {
     position: absolute;
     margin-inline: unset;
   }
+
+  .new-sec-1 .container h1 ,
+  .new-sec-2 .container h1 {
+    font-size: 1.5rem;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 760px) {
@@ -322,8 +328,8 @@ img.sec-1-img2 {
     font-size: 14px;
   }
   .new-sec-1 {
-    height: 55vh;
-  }
+    height: 70vh;
+}
   .new-sec-1 img {
     position: absolute;
     height: 100%;
@@ -385,6 +391,15 @@ img.sec-1-img2 {
     width: auto;
     height: auto;
   } */
+
+  .section-4 h1 {
+    width: 100%;
+  }
+  .section-4 h6 {
+    width: 95%;
+  }
+
+
 }
 
 @media screen and (max-width: 480px) {
