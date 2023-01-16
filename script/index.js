@@ -49,7 +49,6 @@ $("#slider-box").slick({
 });
 
 
-
 $("#slider-2").slick({
   centerMode: true,
   // centerPadding: '60px',
@@ -97,3 +96,7 @@ $("#slider-2").slick({
     }
   ],
 });
+
+
+
+
