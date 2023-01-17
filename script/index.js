@@ -120,7 +120,13 @@ $(".testimonials-slider").slick({
       breakpoint: 740,
       settings: {
         slidesToShow: 1
-      },
+      }
+    } ,
+    {
+      breakpoint: 540,
+      settings: {
+        slidesToShow: 1
+      }
     } 
    ]
 });
