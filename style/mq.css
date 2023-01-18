@@ -401,6 +401,10 @@ img.sec-1-img2 {
     width: 95%;
   }
 
+  .sticky-side a{
+    height: 60px;
+    width: 60px;
+  }
 
 }
 
