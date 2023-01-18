@@ -775,7 +775,6 @@ a.footer-brand {
 .sticky-side{
   display: flex;
   flex-direction: column;
-  width: 60px;
   position: fixed;
   right: 0px;
   top: 234px;
@@ -783,6 +782,7 @@ a.footer-brand {
 }
 .sticky-side a{
   height: 60px;
+  width: 60px;
   padding: 5px;
 }
 .sticky-side a:first-child{
