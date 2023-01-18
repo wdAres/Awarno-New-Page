@@ -70,7 +70,7 @@
                         <li class="offcanvas-li"><a href="https://awarno.com/about-company.php">About Company</a></li>
                         <li class="offcanvas-li"><a href="https://awarno.com/portfolio.php">Portfolio</a></li>
                         <li class="offcanvas-li"><a href="https://awarno.com/careers.php">Career</a></li>
-                        <li class="offcanvas-li"><a href="https://awarno.com/contact.php">Contact</a></li> \
+                        <li class="offcanvas-li"><a href="https://awarno.com/contact.php">Contact</a></li> 
                     </ul>
                 </div>
             </div>
@@ -5430,23 +5430,23 @@
         </div>
 
         <div class="col-md-4">
-            <form action="" class="form">
-                <input type="text" class="form-control mb-4" placeholder="Enter Full Name" required>
-                <input type="text" class="form-control mb-4" placeholder="Enter Your Email" required>
-                <input type="text" class="form-control mb-4" placeholder="Enter Your Number" required>
+            <form class="form" id="price-form">
+                <input type="text" name="name" class="form-control mb-4" placeholder="Enter Full Name" required>
+                <input type="email" name="email" class="form-control mb-4" placeholder="Enter Your Email" required>
+                <input type="number" name="phone" class="form-control mb-4" placeholder="Enter Your Number" required>
                 <div class="position-relative">
-                    <select name="" id="" class="form-control mb-4" required>
-                        <option value="">Choose Your Budget</option>
-                        <option value="1">2 to 4 lacs</option>
-                        <option value="2">4 to 6 lacs </option>
-                        <option value="3">6 to 8 lacs</option>
-                        <option value="4">8 to 10 lacs</option>
-                        <option value="4">Above 10 lacs</option>
+                    <select name="budget" class="form-control mb-4" required>
+                        <option selected="">Choose your budget </option>
+                        <option value="2 Lakh - 4 Lakh">2 to 4 Lacs</option>
+                        <option value="4 Lakh - 6 Lakh">4 to 6 Lacs</option>
+                        <option value="6 Lakh - 8 Lakh">6 to 8 Lacs</option>
+                        <option value="8 Lakh - 10 Lakh">8 to 10 Lacs</option>
+                        <option value="10+ Lakh">Above 10 Lacs</option>
                     </select>
                     <i class="fas fa-chevron-down down-arr"></i>
                 </div>
-                <textarea name="" class="form-control" id="" style="min-height: 100px;" required
-                    placeholder="Your Message"></textarea>
+                <input type="hidden" value="mobile-app-development-company" name="purpose" />
+                <textarea name="describe" class="form-control" style="min-height: 100px;" required placeholder="Your Message"></textarea>
                 <button class="btn-pri mt-3 w-100" style="height: 50px;
                 border-radius: var(--border-radius);">Connect to Awarno</button>
             </form>
@@ -5537,24 +5537,24 @@
                         </div>
 
                         <div class="col-md-12">
-                            <form action="" class="form">
-                                <input type="text" class="form-control mb-4" placeholder="Enter Full Name" required>
-                                <input type="text" class="form-control mb-4" placeholder="Enter Your Email" required>
-                                <input type="text" class="form-control mb-4" placeholder="Enter Your Number" required>
+                            <form class="form" id="#price-form">
+                                <input type="text" name="name" class="form-control mb-4" placeholder="Enter Full Name" required>
+                                <input type="text" name="email" class="form-control mb-4" placeholder="Enter Your Email" required>
+                                <input type="text" name="phone" class="form-control mb-4" placeholder="Enter Your Number" required>
                                 <div class="position-relative">
-                                    <select name="" id="" class="form-control mb-4" required>
+                                    <select name="budget" class="form-control mb-4" required>
                                         <option value="">Choose Your Budget</option>
-                                        <option value="1">2 to 4 lacs</option>
-                                        <option value="2">4 to 6 lacs </option>
-                                        <option value="3">6 to 8 lacs</option>
-                                        <option value="4">8 to 10 lacs</option>
-                                        <option value="4">Above 10 lacs</option>
+                                        <option value="2 Lakh - 4 Lakh">2 to 4 lacs</option>
+                                        <option value="4 Lakh - 6 Lakh">4 to 6 lacs </option>
+                                        <option value="6 Lakh - 8 Lakh">6 to 8 lacs</option>
+                                        <option value="8 Lakh - 10 Lakh">8 to 10 lacs</option>
+                                        <option value="above 10 lakh">Above 10 lacs</option>
                                     </select>
                                     <i class="fas fa-chevron-down down-arr"></i>
                                 </div>
-                                <textarea name="" class="form-control" id="" style="min-height: 50px;" required
-                                    placeholder="Your Message"></textarea>
-                                <button class="btn-pri mt-3 w-100" style="height: 40px;
+                                <input type="hidden" value="mobile-app-development-company" name="purpose" />
+                                <textarea name="describe" class="form-control" style="min-height: 50px;" required placeholder="Your Message"></textarea>
+                                <button class="btn-pri mt-3 w-100" type="submit" style="height: 40px;
                             border-radius: var(--border-radius);">Connect to Awarno</button>
                             </form>
                         </div>
