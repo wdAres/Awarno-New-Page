@@ -775,14 +775,14 @@ a.footer-brand {
 .sticky-side{
   display: flex;
   flex-direction: column;
-  width: 44px;
+  width: 60px;
   position: fixed;
   right: 0px;
   top: 234px;
   align-items: unset;
 }
 .sticky-side a{
-  height: 50px;
+  height: 60px;
   padding: 5px;
 }
 .sticky-side a:first-child{
