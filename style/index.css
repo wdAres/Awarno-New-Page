@@ -99,6 +99,11 @@ h1 span nav {
   /* color: #271260; */
   color: #611f69;
 }
+.btn-sec.sticky{
+  background: #611f69;
+  /* color: #271260; */
+  color: #fff;
+}
 
 .navbar-toggler {
   outline: none !important;
@@ -891,4 +896,28 @@ a.footer-brand {
   z-index: 999999999999999999999999999999999999999999999999999999999999999999;
   transition: 0.8s ease-in-out;
   left: 0;
+}
+
+
+
+.downloads-container {
+    display: flex;
+    justify-content: end;
+    margin: 10px 0 15px;
+}
+.top-case .downloads-container{
+    justify-content: flex-start;
+}
+.download-div {
+    text-align: center;
+    margin: 0 10px;
+}
+.download-div div:first-child {
+    font-size: 23px;
+    font-weight: 700;
+}
+.download-div div:last-child {
+    font-weight: 700;
+    font-size: 13px;
+    color: #6e6b6b;
 }

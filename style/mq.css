@@ -245,6 +245,10 @@ img.sec-1-img2 {
     background-color: #271260;
     margin-inline: 0 !important;
   }
+
+  .downloads-container {
+      display: flex;
+      justify-content: flex-start;}
 }
 
 @media screen and (max-width: 680px) {
